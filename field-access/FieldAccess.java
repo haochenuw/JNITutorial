@@ -1,4 +1,4 @@
-public class Foo {
+public class FieldAccess {
   private int aPrivate;
 
   private static int aStaticPrivate;
@@ -10,6 +10,8 @@ public class Foo {
   public void printAStaticPrivate(){
     System.out.println(aStaticPrivate);
   }
+
+  public native int getAPrivate();
 
   public native void setAPrivate(int val);
 
