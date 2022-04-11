@@ -1,4 +1,4 @@
-class HelloJNIWorld {
+public class HelloJNIWorld {
   public native void sayHello();
 
   public static void main(String args[]) {
